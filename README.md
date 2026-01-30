@@ -41,23 +41,4 @@ This mirrors **real-world ML platforms** used in large-scale tech companies.
   Implements a custom weighted ranking function:
 
 - **Persistent Storage**
-
-Uses SQLite to store all decisions
-
-Enables post-hoc analysis and evaluation
-
-- **Production Metrics**
-
-p95 latency
-
-Accuracy %
-
-Real-time aggregation via API
-
-- **API-First Design**
-
-Clean REST endpoints
-
-Swagger / OpenAPI documentation enabled
-
-Ready for frontend or downstream ML systems
+  Uses SQLite to store all decisions
