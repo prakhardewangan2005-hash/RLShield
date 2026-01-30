@@ -42,3 +42,14 @@ This mirrors **real-world ML platforms** used in large-scale tech companies.
 
 - **Persistent Storage**
   Uses SQLite to store all decisions
+
+---
+
+## 🚀 Deployment
+
+- **Deployed using Railway with:**
+  Python 3.11
+
+  ASGI (Uvicorn)
+
+  Auto CI/CD via GitHub
