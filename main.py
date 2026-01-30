@@ -1,6 +1,7 @@
-import os
-import uvicorn
+from fastapi import FastAPI
 
-if __name__ == "__main__":
-    port = int(os.getenv("PORT", "8000"))
-    uvicorn.run("src.api:app", host="0.0.0.0", port=port, reload=False)
+app = FastAPI()
+
+@app.get("/")
+def health():
+    return {"status": "RLShield running"}
