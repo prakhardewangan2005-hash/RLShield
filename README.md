@@ -40,27 +40,24 @@ This mirrors **real-world ML platforms** used in large-scale tech companies.
 - **Ranking Logic**  
   Implements a custom weighted ranking function:
 
+- **Persistent Storage**
 
-weighted_score = score * 0.7 + confidence * 30 - latency_ms * 0.01
+Uses SQLite to store all decisions
 
+Enables post-hoc analysis and evaluation
 
-- **Persistence**  
-Stores all inference decisions in **SQLite** for analysis and evaluation.
+- **Production Metrics**
 
-- **Metrics Tracking**  
-Computes real-time **p95 latency** and
+p95 latency
 
----
+Accuracy %
 
-## 🚀 Live Deployment
+Real-time aggregation via API
 
-- **Base URL:** https://rlshield-production.up.railway.app  
-- **Swagger / OpenAPI Docs:** https://rlshield-production.up.railway.app/docs  
+- **API-First Design**
 
-Health check:
+Clean REST endpoints
 
-GET /
-→ { "status": "RLShield running" }
+Swagger / OpenAPI documentation enabled
 
-
-
+Ready for frontend or downstream ML systems
