@@ -48,6 +48,7 @@ This mirrors **real-world ML platforms** used in large-scale tech companies.
 ## 🚀 Deployment
 
 - **Deployed using Railway with:**
+
   Python 3.11
 
   ASGI (Uvicorn)
