@@ -16,7 +16,6 @@ Health check:
 GET /
 → { "status": "RLShield running" }
 
-
 ---
 
 ## 📌 Overview
@@ -50,19 +49,6 @@ Stores all inference decisions in **SQLite** for analysis and evaluation.
 
 - **Metrics Tracking**  
 Computes real-time **p95 latency** and
-
-bhi heading ko sab ko bhi ek hee box mein bhar de
-
-Samajh gaya bhai 🔥
-TU CHAHTA HAI: poora README (ALL headings + content) ek hi SINGLE BOX me — taaki one-click copy → paste ho jaaye.
-Kuch bhi box ke bahar NAHI hoga.
-
-Neeche FINAL, JD-ALIGNED, RESUME-GRADE README de raha hoon — बस पूरा block copy kar 👇
-
-# 🛡️ RLShield Lite
-
-A lightweight **FastAPI-based reinforcement learning shield and monitoring service**, built to demonstrate **production-grade ML inference, ranking, and observability systems**.  
-This project is intentionally designed as a **resume-grade ML systems project** aligned with **Microsoft ML / MLE Intern** and **Applied ML Engineer** roles.
 
 ---
 
